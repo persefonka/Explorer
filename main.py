@@ -11,6 +11,7 @@ def create_file():
     except Exception as e:
         print(f"Ошибка при создании файла '{file_path}': {e}")
 
+
 def delete_file():
     file_path = input("Введите путь к файлу: ")
     try:
